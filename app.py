@@ -24,7 +24,7 @@ def obtener_personas():
         Response: Objeto de respuesta JSON con la lista de personas filtrada.
     """
     filtro = request.args
-    resultado = personas
+    resultado = []
 
     # Filtrar por cada parámetro proporcionado en la solicitud
     for persona in personas:
