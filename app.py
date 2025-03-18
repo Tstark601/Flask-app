@@ -46,6 +46,13 @@ def obtener_personas():
 
     return jsonify(resultado)
 
+# Ejemplos de consulta
+# http://127.0.0.1:5000/personas?ciudad=Barranquilla
+# http://127.0.0.1:5000/personas?edad=27
+# http://127.0.0.1:5000/personas?id=
+# http://127.0.0.1:5000/personas?nombre=
+# http://127.0.0.1:5000/personas?apellido=
+
 # Punto de entrada para ejecutar la aplicación Flask
 if __name__ == '__main__':
     # Ejecutar la aplicación en modo debug para facilitar el desarrollo
